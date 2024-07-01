@@ -8,7 +8,7 @@ from utils.dataset_processing import grasp, image
 
 class MultiDataset(GraspDatasetBase):
     """
-    Dataset wrapper for the Cornell dataset.
+    Dataset wrapper for the Multi dataset.
     """
     def __init__(self, file_path, start=0.0, end=1.0, ds_rotate=0, **kwargs):
         """
